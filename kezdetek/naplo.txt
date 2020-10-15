@@ -1,0 +1,9 @@
+okt. 14
+Valamiert a juliaban a "notebook()" parancsra nem akarja a jupyter notebook-ot megnyitni a browserben:
+
+Access to the file was deniedThe file at file:///home/user/.local/share/jupyter/runtime/nbserver-14456-open.html is not readable. It may have been removed, moved, or file permissions may be preventing access.
+ERR_ACCESS_DENIED
+
+A permissions ehhez a fajlhoz -rw-rw-r--
+Probaltam: sudo chown -R user: ~/.local/share/jupyter, de nem valtozott semmi
+(https://stackoverflow.com/questions/46272880/cannot-open-new-jupyter-notebook-permission-denied)

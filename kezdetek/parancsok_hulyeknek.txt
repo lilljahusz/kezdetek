@@ -1,0 +1,55 @@
+GIT-----------------------------------
+
+git status
+git add kezdetek/Untitled.ipynb 
+git commit -m "Julia kezdet"
+git status
+git push origin master
+
+#kulcsot hogyan is hasznalom?
+
+git checkout
+git branch
+git checkout -b <branch>#creat and check out a new branch
+git branch -b <branch>#create new branch
+
+Julia installation--------------------
+
+#Melyiket kellett volna letoltenem? GPG? ARM? x86? (Ubuntu Software-ben csak 32bit-es van. sudo apt install julia)
+#Hova kellett volna telepitenem?
+gksudo gedit etc/environment
+#.bashrc??? ketto is van...
+
+#Julia oldalon: To add Julia's bin folder (with full path) to PATH environment variable, you can edit the ~/.bashrc (or #~/.bash_profile) file. Open the file in your favourite editor and add a new line as follows:
+
+export PATH="$PATH:/path/to/<Julia directory>/bin"
+
+
+Julia---------------------------------
+
+using Pkg
+Pkg.add("IJulia")
+
+Pkg.rm("IJulia")
+Pkg.add("IJulia")
+Pkg.build("IJulia")
+Pkg.update
+
+using Julia
+notebook()
+#jupyter from browser ?? 
+
+jupyter kernelspec list
+#qu'est-ce que c'est? neten keresztul tudom csak a notebookomat osszekotni a Julia-val (Pyton stb)
+
+
+SSH KEY -------------------------------------
+
+host key
+public key
+identity key
+
+
+
+
+
