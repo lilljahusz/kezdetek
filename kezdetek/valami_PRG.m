@@ -3,5 +3,5 @@ disp("First message!")
 
 z=0
 for i=1:100
-    z = z + i;
+    z = z + 2*i;
 end
