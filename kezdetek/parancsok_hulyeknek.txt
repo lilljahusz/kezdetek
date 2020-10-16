@@ -50,6 +50,23 @@ public key
 identity key
 
 
+VIM-----------------------------------
 
+en szinte fel vagy tobb idoben osztott vim kepernyon dolgozom
+egyik fajl bal oldalon masik jobb oldalon, mind vimben
+
+:vs 
+
+megfelzi a kepernyot, bal jobb
+
+CTRL-ww : valtasz a ket kepernyo kozott
+
+:split : horizontalis felezes (fent lent)
+
+ezekbol akarmennyit akarmilyen topologival nyithatsz
+
+:q vagy :bd bezarja az aktivat (ha menetentlen akkor persze kiirja h eloszor ments)
+
+Insert mode-ban Shift+Crtl+V mas progibol bemasol
 
 
